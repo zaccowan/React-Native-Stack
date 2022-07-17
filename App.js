@@ -1,7 +1,7 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { TailwindProvider } from "tailwindcss-react-native";
-import { store } from "./app/store";
+import { store } from "./store";
 import { Provider } from "react-redux";
 import HomeScreen from "./screens/HomeScreen";
 
